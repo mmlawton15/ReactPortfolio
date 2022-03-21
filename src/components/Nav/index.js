@@ -30,7 +30,7 @@ function Nav() {
         <header data-testid='header' className='flex-row px-1'>
             <h2>
                 <a data-testid='link' href='/'>
-                    <span role='img' aria-label='personalLogo'>{personalLogo}</span> Portfolio 
+                    <img src={personalLogo} class='logo'/>
                 </a>
             </h2>
             <nav>

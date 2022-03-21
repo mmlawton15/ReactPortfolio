@@ -175,6 +175,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .space-between {
@@ -293,3 +294,9 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
