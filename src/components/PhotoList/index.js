@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import photo from '../../assets/frontend/Characters.png';
 
 const PhotoList = ({category}) => {
     const [photos] = useState([
@@ -75,7 +74,7 @@ const PhotoList = ({category}) => {
         }
     ])
 
-    const currentPhotos = photos.filter((photo) => photo.category === category);
+    const currentPhotos = photos.filter(photo => photo.category === category);
 
     return (
         <div>
