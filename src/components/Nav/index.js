@@ -21,7 +21,7 @@ function Nav(props) {
     return (
         <header className='flex-row px-1'>
             <h2>
-                <a href='/'> <img src={personalLogo} class='logo'/></a>
+                <a href='/'> <img src={personalLogo} alt="personal logo" class='logo'/></a>
             </h2>
             <nav>
                 <ul className='flex-row'>
