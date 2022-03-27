@@ -6,7 +6,7 @@ function Portfolio(props) {
     const {currentCategory} = props;
     return (
         <section>
-            <h1>{capitalizeFirstLetter(currentCategory.nam)}</h1>
+            <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
             <p>{currentCategory.description}</p>
             <PhotoList category={currentCategory.name}/>
         </section>
