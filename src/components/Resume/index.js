@@ -1,8 +1,7 @@
-//ABOUT COMPONENT
 import React from 'react';
 import coverImage from '../../assets/cover/usc-pic.jpg';
 
-function About() {
+function Resume() {
     return(
         <section className="my-5">
             <h1 id='about'>Hi!</h1>
@@ -24,4 +23,4 @@ function About() {
     );
 }
 
-export default About;
+export default Resume;
