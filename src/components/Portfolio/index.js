@@ -6,8 +6,9 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 function Portfolio(props) {
     const {currentCategory} = props;
     return (
-        <section>
-            <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
+        <section className='my-5'>
+            <h1 id="portfolio">Portfolio</h1>
+            <h3>{capitalizeFirstLetter(currentCategory.name)}</h3>
             <p>{currentCategory.description}</p>
             <PhotoList category={currentCategory.name}/>
         </section>
