@@ -1,3 +1,4 @@
+//ABOUT COMPONENT
 import React from 'react';
 import coverImage from '../../assets/cover/usc-pic.jpg';
 

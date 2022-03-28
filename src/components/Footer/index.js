@@ -1,10 +1,7 @@
-import React from 'react';
+// import React from 'react';
 
-function Footer() {
+// function Footer() {
 
-    return {
+// }
 
-    }
-}
-
-export default Footer;
+// export default Footer;
