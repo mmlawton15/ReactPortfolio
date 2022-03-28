@@ -7,7 +7,6 @@ import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
     {name:'Frontend', description: 'Projects where I primarily focused on the front-end.'},
     {name: 'Backend', description: 'Projects where I primarily focused on the back-end'},
@@ -15,6 +14,7 @@ function App() {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>

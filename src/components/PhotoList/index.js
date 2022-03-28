@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 import Modal from '../Modal';
 
 const PhotoList = ({category}) => {
-    const [currentPhoto, setCurrentPhoto] = useState();
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [currentPhoto, setCurrentPhoto] = useState();
     
     const [photos] = useState([
         {
