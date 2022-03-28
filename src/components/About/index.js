@@ -8,7 +8,7 @@ function About() {
             <h1 id='about'>Hi!</h1>
             <img src={coverImage} className='my-2' style={{width: '100%'}} alt='cover' />
             <div className='my-2'>
-                <p>Thank you for visiting my page. Welcome to my portfolio, where you will find a bit about me, my work, and my contact information.</p>
+                <p>My name is Mary Margaret, thank you for visiting my page. Welcome to my portfolio, where you will find a bit about me, my work, and my contact information.</p>
                 <br></br>
                 <h2>Mary Margaret, MM, MML...</h2>
                     <p>The list goes on. I will be impressed if you can come up with a new nickname! In my free time, I like to hangout with friends and family. The majority of my free time is occupied by those around me. When I have time for myself, I love reading the classics (The Count of Monte Christo remains my favorite) and thinking that I'm a great cook. My loved ones are always the first to try these concoctions, much to their dismay.</p>
