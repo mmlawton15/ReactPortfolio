@@ -8,8 +8,6 @@ function Portfolio(props) {
     return (
         <section className='my-5'>
             <h1 id="portfolio">Portfolio</h1>
-            <h3>{capitalizeFirstLetter(currentCategory.name)}</h3>
-            <p>{currentCategory.description}</p>
             <PhotoList category={currentCategory.name}/>
         </section>
     );
