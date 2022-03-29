@@ -207,6 +207,10 @@ textarea {
   margin-bottom: var(--spacing-two);
 }
 
+.my-2 li {
+  font-weight: lighter;
+}
+
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
