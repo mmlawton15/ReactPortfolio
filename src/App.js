@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
+import Modal from './components/Modal';
 //import Footer from './components/Footer';
 
 function App() {

@@ -15,7 +15,7 @@ import codequiz from '../../assets/largeImages/codequiz.png';
 import gasguru from '../../assets/largeImages/gasguru.png';
 import horiseon from '../../assets/largeImages/horiseon.jpg';
 
-const PhotoList = ({category}) => {
+const PhotoList = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [currentPhoto, setCurrentPhoto] = useState();
     

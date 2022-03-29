@@ -4,8 +4,6 @@ import {capitalizeFirstLetter} from '../../utils/helpers';
 
 function Nav(props) {
     const {
-        categories = [],
-        setCurrentCategory,
         currentCategory,
         contactSelected,
         setContactSelected
