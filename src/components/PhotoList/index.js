@@ -14,12 +14,19 @@ import employees from '../../assets/largeImages/employeetrackermakeshift.png';
 import codequiz from '../../assets/largeImages/codequiz.png';
 import gasguru from '../../assets/largeImages/gasguru.png';
 import horiseon from '../../assets/largeImages/horiseon.jpg';
+import calendari from '../../assets/largeImages/calendariHomeGif.gif';
 
 const PhotoList = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [currentPhoto, setCurrentPhoto] = useState();
     
     const [photos] = useState([
+        {
+            name: "Calendari",
+            category: "frontend",
+            path: calendari,
+            descripton: "Our final group project, a scheduling application that is designed to be user-friendly and clean. Applicable to any business type"
+        },
         {
             name:"The Sheet Show",
             category:"frontend",
