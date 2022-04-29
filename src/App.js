@@ -14,9 +14,7 @@ import Contact from './pages/Contact';
 
 function App() {
   const [categories] = useState([
-    {name:'Frontend', description: 'Projects where I primarily focused on the front-end.'},
-    {name: 'Backend', description: 'Projects where I primarily focused on the back-end'},
-    {name: 'Fullstack', description: 'Full Stack applications I created and worked on'}
+    {name:'MM Portfolio'}
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
