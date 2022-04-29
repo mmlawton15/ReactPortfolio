@@ -1,5 +1,4 @@
 import React from 'react';
-import { Redirect, useParams } from "react-router-dom";
 
 export default function About() {
     return (

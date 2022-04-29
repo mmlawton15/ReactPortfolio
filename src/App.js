@@ -1,11 +1,16 @@
 //The root component of the app that houses all the other components
 import React, { useState } from 'react';
 import './App.css';
-import About from './components/About';
+
+//PAGES
 import Nav from './components/Nav';
-import Portfolio from './components/Portfolio';
-import ContactForm from './components/Contact';
-import Resume from './components/Resume';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
+
+//IMAGES
+
 
 function App() {
   const [categories] = useState([
@@ -26,18 +31,7 @@ function App() {
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
-      <main>
-      {!contactSelected ? (
-        <>
-          <About></About>
-          <Portfolio currentCategory={currentCategory}></Portfolio>
-          <Resume></Resume>
-        </>
-      ) : (
-          <ContactForm></ContactForm>
-        )}
-        
-      </main>
+
     </div>
   );
 }

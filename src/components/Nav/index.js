@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import personalLogo from '../../assets/largeImages/PersonalLogoPNG.png'
+import personalLogo from '../../assets/projects/PersonalLogoPNG.png'
 import {capitalizeFirstLetter} from '../../utils/helpers';
 
 function Nav(props) {
