@@ -4,34 +4,37 @@ import './App.css';
 
 //PAGES
 import Nav from './components/Nav';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import About from './components/pages/About';
+import Portfolio from './components/pages/Portfolio';
+import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact';
+import Home from './components/pages/Home';
 
-//IMAGES
 
-
-function App() {
-  const [categories] = useState([
-    {name:'MM Portfolio'}
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [contactSelected, setContactSelected] = useState(false);
+export default function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Home/>;
+    }
+    if (currentPage === 'About') {
+      return <About/>;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio/>;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume/>;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact/>;
+    }
+  }
 
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-
+      <Nav currentPage={currentPage} handlePageChange={setCurrentPage}></Nav>
+      {renderPage()}
     </div>
   );
 }
-
-export default App;
