@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 //PAGES
-import Nav from './components/Nav';
+import Nav from './components/Nav/index.js';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
