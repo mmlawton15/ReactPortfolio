@@ -6,7 +6,7 @@ export default function Resume() {
         <section>
             <div className="resume-section">
                 <div id="resume">
-                <h1>Portfolio</h1>
+                <h1>Resume</h1>
                 </div>
             </div>
         </section>
