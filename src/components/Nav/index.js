@@ -6,14 +6,12 @@ function Nav({currentPage, handlePageChange}) {
         <header className="navigation-bar">
             <nav>
                 <ul>
-                    <li>
-                        <a 
-                        href="#home" 
-                        onClick={() => handlePageChange('Home')}
-                        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
-                        <img src={personalLogo} alt="personal logo" className='logo'/>
-                        </a>
-                    </li>
+                    <a 
+                    href="#home" 
+                    onClick={() => handlePageChange('Home')}
+                    className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+                    <img src={personalLogo} alt="personal logo" className='logo'/>
+                    </a>
                     <li className="compressed-list">                
                         <a
                         href="#about"
