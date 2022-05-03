@@ -1,6 +1,5 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import personalLogo from '../../assets/cover/PersonalLogoPNG.png'
-import {capitalizeFirstLetter} from '../../utils/helpers';
 
 function Nav({currentPage, handlePageChange}) {
     return (

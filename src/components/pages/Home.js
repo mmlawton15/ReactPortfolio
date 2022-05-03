@@ -1,4 +1,5 @@
 import React from 'react';
+import mmUSC from '../../assets/cover/usc-pic.jpg'
 
 export default function Home() {
 
@@ -10,6 +11,7 @@ export default function Home() {
                 <p>Hi! Thank you for visiting my page. Welcome to my portfolio, 
                     where you will find a bit about me, my work, and what I am looking for moving forward.</p>
                 </div>
+                <img src={mmUSC} alt="mm at usc"/>
             </div>
         </section>
     )
