@@ -7,7 +7,6 @@ import Nav from './components/Nav/index.js';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
-import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
 
 
@@ -25,9 +24,6 @@ export default function App() {
     }
     if (currentPage === 'Resume') {
       return <Resume/>;
-    }
-    if (currentPage === 'Contact') {
-      return <Contact/>;
     }
   }
 
