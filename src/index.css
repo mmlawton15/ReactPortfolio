@@ -144,6 +144,71 @@ h6 {
 }
 
 
+/*-----------------------------------------------WORK--------------------------------------------------------*/
+.my-work-heading {
+  margin:3rem 4rem 2rem 4rem;
+}
+.my-work-heading p {
+  font-weight: lighter;
+}
+
+.cards {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  margin: 0 3rem;
+}
+
+.card {
+  background-color: var(--lightest-blue);
+  border-radius:15px;
+  border: none;
+  -webkit-filter:drop-shadow(3px 3px 3px #44a1a0);
+  filter: drop-shadow(3px 3px 3px #44a1a0);
+  margin:1rem;
+  flex-basis:30rem;
+  height:auto;
+  width:auto;
+}
+
+.card:hover {
+  -webkit-filter:drop-shadow(3px 3px 3px #0d5c63);
+  filter: drop-shadow(3px 3px 3px #0d5c63);
+}
+
+.card-image {
+  align-items: center;
+  border-radius:15px 15px 0 0;
+}
+
+.card-body {
+  padding: 1rem 2rem;
+}
+
+@media screen and (min-width:40em) {
+  .cards {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+  }
+}
+@media screen and (min-width:60em) {
+  .cards {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+  }
+}
+@media screen and (min-width:52em) {
+  .cards {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+  }
+}
+
+
+
 img {
   max-width: 100%;
 }
