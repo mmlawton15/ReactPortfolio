@@ -4,18 +4,15 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #85ccff;
-  --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
-  --error: rgb(228, 46, 1);
+  --white: #fffffa;
+  --lightest-blue: #78cdd7;
+  --medium-blue: #44a1a0;
+  --dark-blue: #247b7b;
+  --darkest-blue: #0d5c63;
+  --text: #040F0F;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-  --blue: #85ccff;
-
 }
 
 * {
@@ -35,9 +32,8 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: white;
-  color: var(--darker);
+  color: var(--text);
   font-family: 'Helvetica';
-
 }
 
 h1,
@@ -83,42 +79,54 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--dark-blue);
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--lightest-blue);
 }
 
-header {
+/*---------------------------------HEADER CODE---------------------------------------------------------------------------------------*/
+
+nav li {
+  cursor: pointer;
+}
+
+.navigation-bar {
+  padding: 0 2rem 0 0;
+  margin: 0;
   background: white;
 }
 
-header a {
-  color: var(--blue);
+.navigation-bar a {
+  color:#040F0F;
+  font-weight: bold;
+  transition: ease-in-out 200ms;
 }
 
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
+.navigation-bar a:hover {
+  color:#44a1a0;
 }
 
-button:hover {
-  opacity: .8;
+.navigation-bar nav{
+  margin: auto;
 }
 
-button[disabled] {
-  cursor: default;
-  opacity: .8;
+.navigation-bar ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: right;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.navigation-bar li a{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1rem 2rem;
 }
 
 img {
@@ -151,18 +159,12 @@ li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: none;
-}
 
-nav  li {
-  cursor: pointer;
-}
 
 textarea {
 	width: 600px;
 	height: 120px;
-	border: 3px solid #cccccc;
+	border: 3px solid;
 	padding: 5px;
 }
 
@@ -248,32 +250,6 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
 button {
 	background: var(--primary);
 	border: 0;
@@ -288,7 +264,7 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--text);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -297,11 +273,10 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--medium-blue);
 }
 
 .logo {
   height: 50px;
   width: auto;
 }
-
