@@ -3,28 +3,28 @@ import personalLogo from '../../assets/cover/PersonalLogoPNG.png'
 
 function Nav({currentPage, handlePageChange}) {
     return (
-        <header className="navigation-bar">
+        <header>
+            <a 
+                href="#home" 
+                onClick={() => handlePageChange('Home')}
+                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+                <img src={personalLogo} alt="personal logo" className='logo'/>
+            </a>
             <nav>
                 <ul>
-                    <a 
-                    href="#home" 
-                    onClick={() => handlePageChange('Home')}
-                    className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
-                    <img src={personalLogo} alt="personal logo" className='logo'/>
-                    </a>
-                    <li className="compressed-list">                
+                    <li>                
                         <a
                         href="#about"
                         onClick={() => handlePageChange('About')}
                         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
                     </li>
-                    <li className="compressed-list">               
+                    <li>                  
                         <a
                         href="#portfolio"
                         onClick={() => handlePageChange('Portfolio')}
                         className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
                     </li>
-                    <li className="compressed-list">               
+                    <li>                
                         <a
                         href="#resume"
                         onClick={() => handlePageChange('Resume')}

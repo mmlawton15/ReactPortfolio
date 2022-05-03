@@ -78,23 +78,28 @@ h6 {
 
 /*---------------------------------HEADER CODE---------------------------------------------------------------------------------------*/
 
-.navigation-bar {
+header {
   padding: 0 2rem 0 0;
   margin: 0px;
   background: white;
+  display:flex;
+  flex-wrap:wrap;
+  position: sticky;
+  top:0;
+  align-items: center;
 }
 
-.navigation-bar a {
+header a {
   color:#040F0F;
   font-weight: bold;
   transition: ease-in-out 200ms;
 }
 
-.navigation-bar nav{
-  margin: 0;
+header nav{
+  margin: auto 2rem auto auto;
 }
 
-.navigation-bar ul{
+header ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -103,23 +108,23 @@ h6 {
   margin:0;
 }
 
-.navigation-bar li a{
+header li a{
   display: inline-block;
   padding: 1rem 2rem;
   cursor: pointer;
   text-decoration:none;
 }
 
-.navigation-bar ul li a:hover{
+header ul li a:hover{
   color:#78cdd7;
 }
 
-.navigation-bar ul li {
+header ul li {
   text-align:left;
 }
 
 .logo {
-  margin:1rem 0rem;
+  margin:1rem 4rem;
 }
 
 /*-----------------------------------------------HOME---------------------------------------------------------------------------*/
