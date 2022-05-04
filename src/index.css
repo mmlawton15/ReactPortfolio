@@ -86,7 +86,6 @@ header {
   flex-wrap:wrap;
   position: sticky;
   top:0;
-  align-items: center;
 }
 
 header a {
@@ -218,6 +217,30 @@ header ul li {
       flex-wrap:wrap;
       justify-content: space-between;
   }
+}
+
+
+/*--------------------------------------------------RESUME--------------------------------------------------------------*/
+.resume {
+  margin:4rem 14rem;
+}
+
+.icons {
+  width:12rem;
+  filter: invert(59%) sepia(23%) saturate(855%) hue-rotate(130deg) brightness(89%) contrast(92%);
+}
+
+.icon-container {
+  width:60%;
+  margin:auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+}
+
+.icon-container a:hover{
+  -webkit-filter:drop-shadow(6px 6px 6px #0d5c63);
 }
 
 

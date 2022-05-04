@@ -12,8 +12,7 @@ export default function Portfolio() {
             <div class="my-work-heading">
                 <h1>My Work</h1>
                 <p>
-                    This section contains my favorite projects.These apps are fully functioning, click the images to visit the page! I am currently tightening up my React Portfolio, 
-                    once available the link can be found on the Resume page.
+                    This section contains my favorite projects. These apps are fully functioning, click the images to visit the deployed application!
                 </p>
             </div>
             
