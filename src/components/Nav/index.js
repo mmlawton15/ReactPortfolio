@@ -5,7 +5,7 @@ function Nav({currentPage, handlePageChange}) {
     return (
         <header>
             <a 
-                href="#home" 
+                href="#" 
                 onClick={() => handlePageChange('Home')}
                 className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
                 <img src={personalLogo} alt="personal logo" className='logo'/>

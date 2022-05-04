@@ -34,7 +34,9 @@ export default function About() {
                     Green Tech, and Machine Learning. I am an optimistic and inquisitive student, 
                     and can't wait to see what my future holds in technology.</p>
             </div>
-            
+            <br/>
+            <br/>
+            <br/>
         </div>
         
     )

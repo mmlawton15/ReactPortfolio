@@ -13,6 +13,9 @@ export default function Home() {
                 </div>
                 <img src={mmUSC} alt="mm at usc"/>
             </div>
+            <br/>
+            <br/>
+            <br/>
         </section>
     )
 }

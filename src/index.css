@@ -279,14 +279,21 @@ footer {
 
 .wavecontainer {
   width:100%;
-  z-index: 1;
+  position: relative;
 }
+
 .content {
   text-align:center;
-  color:red;
+  color:white;
   width:100%;
   font-weight:lighter;
   z-index: 2;
+  position:absolute;
+  top:50%;
+  bottom:auto;
+  left:0%;
+  right:50%;
+  font-size:20px;
 }
 
 /* Animation */
