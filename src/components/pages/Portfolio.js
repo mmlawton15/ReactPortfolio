@@ -9,17 +9,17 @@ import budgettracker from "../../assets/projects/budgetTrackerPWA.png"
 export default function Portfolio() {
     return (
         <section>
-            <div class="my-work-heading">
+            <div className="my-work-heading">
                 <h1>My Work</h1>
                 <p>
                     This section contains my favorite projects. These apps are fully functioning, click the images to visit the deployed application!
                 </p>
             </div>
             
-            <div id="worksContainer" class="cards">
-                <div id="calendari" class="card">
-                    <a href ='https://calendari-day.herokuapp.com/' target="blank" rel="noreferror"><img class="card-image" src={calendari} alt="calendari application" target="blank" /></a>
-                    <div class="card-body">
+            <div id="worksContainer" className="cards">
+                <div id="calendari" className="card">
+                    <a href ='https://calendari-day.herokuapp.com/' target="blank" rel="noreferror"><img className="card-image" src={calendari} alt="calendari application" target="blank" /></a>
+                    <div className="card-body">
                         <h3><b>Calendari</b></h3>
                         <p>Calendari is a MERN SPA PWA scheduler using GraphQL. Business Owners can log in, manage their appointments,
                             and customize their appointment types. Clients can log in and schedule any of the predefined appointments with notes for the business.</p>
@@ -28,9 +28,9 @@ export default function Portfolio() {
                     </div>
                 </div>
 
-                <div id="groupProjectTwo" class="card">
-                    <a href='https://sheet-show.herokuapp.com/' target="blank" rel="noreferror"><img class="card-image" src={sheetshow} alt="sheet show application" /></a>
-                    <div class="card-body">
+                <div id="groupProjectTwo" className="card">
+                    <a href='https://sheet-show.herokuapp.com/' target="blank" rel="noreferror"><img className="card-image" src={sheetshow} alt="sheet show application" /></a>
+                    <div className="card-body">
                         <h3><b>The Sheet Show</b></h3>
                         <p>A full stack application that is based on creating character sheets for Dungeons and Dragons. We created a RESTful API to communicate between
                             front end and back end, and styled it using primarily CSS and a DnD</p>
@@ -39,9 +39,9 @@ export default function Portfolio() {
                             Express session, JawsDB, DnD API</p>
                     </div>
                 </div>
-                <div id="projectFive" class="card">
-                    <a href = 'https://mmlawton15.GitHub.io/challenge-five-disco/' target="blank" rel="noreferror"><img class="card-image" src={workdayscheduler} alt="the workday scheduler"/></a>
-                    <div class="card-body">
+                <div id="projectFive" className="card">
+                    <a href = 'https://mmlawton15.GitHub.io/challenge-five-disco/' target="blank" rel="noreferror"><img className="card-image" src={workdayscheduler} alt="the workday scheduler"/></a>
+                    <div className="card-body">
                         <h3><b>Work Scheduler</b></h3>
                         <p>The Work Day Scheduler functions similarly to a calendar app, it allows the user to schedule their daily tasks by the hour and reflects the current date
                             and time. The previous time is greyed out, the current time will be red, and the upcoming time will be green. This uses local storage to allow for
@@ -50,9 +50,9 @@ export default function Portfolio() {
                         <p>HTML, CSS, Javascript, Third-Party APIs, Bootstrap, jQuery, Moment</p>
                     </div>
                 </div>
-                <div id="projectEleven" class="card">
-                    <a href = 'https://protected-savannah-15247.herokuapp.com/notes' ><img class="card-image" src={notetaker} alt="the Notetaker app"/></a>
-                    <div class="card-body">
+                <div id="projectEleven" className="card">
+                    <a href = 'https://protected-savannah-15247.herokuapp.com/notes' ><img className="card-image" src={notetaker} alt="the Notetaker app"/></a>
+                    <div className="card-body">
                         <h3><b>Note Taker</b></h3>
                         <p>The Notetaker app was our challenge we used to show our skills with Express.js. It's an application that allows users to create, edit and delete
                             notes and these notes persist using a JSON database. It was designed to replace a paper notebook!</p>
@@ -60,9 +60,9 @@ export default function Portfolio() {
                         <p>HTML, CSS, Javascript, Node, Express, CRUD, Heroku</p>
                     </div>
                 </div>
-                <div id="projectNineteen" class="card">
-                    <a  href = 'https://evening-caverns-05596.herokuapp.com' target="blank" rel="noreferror"><img class="card-image" src={budgettracker} alt="the budget tracker app"/></a>
-                    <div class="card-body">
+                <div id="projectNineteen" className="card">
+                    <a  href = 'https://evening-caverns-05596.herokuapp.com' target="blank" rel="noreferror"><img className="card-image" src={budgettracker} alt="the budget tracker app"/></a>
+                    <div className="card-body">
                         <h3><b>Budget Tracker</b></h3>
                         <p>My first Progressive Web Applications. I handled the backend logic, more specifically the offline capabilities. If a user loses 
                             internet access, the app will log their transactions using IndexedDB. Once they regain network access, Indexed DB will load 
@@ -71,9 +71,9 @@ export default function Portfolio() {
                         <p>HTML, CSS, Javascript, Heroku, IndexedDB, Service Workers</p>
                     </div>
                 </div>
-                <div id="projectSix" class="card">
-                    <a href = 'https://mmlawton15.github.io/weather-dashboard/' target="blank" rel="noreferror"><img class="card-image" src={weatherdashboard} alt="the weather dashboard app" /></a>
-                    <div class="card-body">
+                <div id="projectSix" className="card">
+                    <a href = 'https://mmlawton15.github.io/weather-dashboard/' target="blank" rel="noreferror"><img className="card-image" src={weatherdashboard} alt="the weather dashboard app" /></a>
+                    <div className="card-body">
                         <h3><b>Weather Dashboard</b></h3>
                         <p>The Weather Dashboard was our introduction to Server-Side APIs. I built a weather app, where the user can search for a city and
                             get the daily forecast, as well as the 5 day forecast.</p>

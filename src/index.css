@@ -191,7 +191,7 @@ header ul li {
 }
 
 .card-image {
-  align-items: center;
+  align-items: left;
   border-radius:15px 15px 0 0;
   width:100%;
 }
