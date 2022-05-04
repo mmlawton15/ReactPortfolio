@@ -89,7 +89,7 @@ header {
 }
 
 header a {
-  color:#040F0F;
+  color:var(--darkest-blue);
   font-weight: bold;
   transition: ease-in-out 200ms;
 }
@@ -170,7 +170,6 @@ header ul li {
   justify-content:space-between;
   flex-wrap:wrap;
   margin: 0 3rem;
-
 }
 
 .card {
