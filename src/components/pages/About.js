@@ -20,8 +20,6 @@ export default function About() {
             </div>
             <br/>
             <br/>
-            <br/>
-            <br/>
             <div className="MM-facts">
             <h2>Professional Interests</h2>
                 <p>I studied AP Computer Science in high school, and Graphic Design in college. I have recently revisited this industry, 

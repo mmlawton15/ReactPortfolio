@@ -1,7 +1,7 @@
 main {
 	margin: 0 auto;
 	max-width: 90%;
-  padding: 50px 30px;
+  padding: 0px 30px;
 }
 
 :root {
@@ -170,6 +170,7 @@ header ul li {
   justify-content:space-between;
   flex-wrap:wrap;
   margin: 0 3rem;
+
 }
 
 .card {
@@ -181,9 +182,7 @@ header ul li {
   margin:1rem;
   flex-basis:30rem;
   height:auto;
-  width:auto;
-  width: 25%;
-  text-align: center;
+  width:25%;
 }
 
 .card:hover {
@@ -369,8 +368,6 @@ input:focus {
 li {
   list-style: none;
 }
-
-
 
 textarea {
 	width: 600px;
