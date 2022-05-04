@@ -183,6 +183,7 @@ header ul li {
   flex-basis:30rem;
   height:auto;
   width:25%;
+  left:0;
 }
 
 .card:hover {
@@ -193,6 +194,7 @@ header ul li {
 .card-image {
   align-items: center;
   border-radius:15px 15px 0 0;
+  width:100%;
 }
 
 .card-body {
