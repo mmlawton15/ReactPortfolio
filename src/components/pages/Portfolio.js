@@ -18,7 +18,7 @@ export default function Portfolio() {
             
             <div id="worksContainer" class="cards">
                 <div id="calendari" class="card">
-                    <img class="card-image" src={calendari} alt="calendari application" onclick="location.href = 'https://calendari-day.herokuapp.com/';"/>
+                    <a href ='https://calendari-day.herokuapp.com/' target="blank" rel="noreferror"><img class="card-image" src={calendari} alt="calendari application" target="blank" /></a>
                     <div class="card-body">
                         <h3><b>Calendari</b></h3>
                         <p>Calendari is a MERN SPA PWA scheduler using GraphQL. Business Owners can log in, manage their appointments,
@@ -29,7 +29,7 @@ export default function Portfolio() {
                 </div>
 
                 <div id="groupProjectTwo" class="card">
-                    <img class="card-image" src={sheetshow} alt="sheet show application" onclick="location.href = 'https://sheet-show.herokuapp.com/';"/>
+                    <a href='https://sheet-show.herokuapp.com/' target="blank" rel="noreferror"><img class="card-image" src={sheetshow} alt="sheet show application" /></a>
                     <div class="card-body">
                         <h3><b>The Sheet Show</b></h3>
                         <p>A full stack application that is based on creating character sheets for Dungeons and Dragons. We created a RESTful API to communicate between
@@ -40,7 +40,7 @@ export default function Portfolio() {
                     </div>
                 </div>
                 <div id="projectFive" class="card">
-                    <img class="card-image" src={workdayscheduler} alt="the workday scheduler" onclick="location.href = 'https://mmlawton15.GitHub.io/challenge-five-disco/';"/>
+                    <a href = 'https://mmlawton15.GitHub.io/challenge-five-disco/' target="blank" rel="noreferror"><img class="card-image" src={workdayscheduler} alt="the workday scheduler"/></a>
                     <div class="card-body">
                         <h3><b>Work Scheduler</b></h3>
                         <p>The Work Day Scheduler functions similarly to a calendar app, it allows the user to schedule their daily tasks by the hour and reflects the current date
@@ -51,7 +51,7 @@ export default function Portfolio() {
                     </div>
                 </div>
                 <div id="projectEleven" class="card">
-                    <img class="card-image" src={notetaker} alt="the Notetaker app" onclick="location.href = 'https://protected-savannah-15247.herokuapp.com/notes';"/>
+                    <a href = 'https://protected-savannah-15247.herokuapp.com/notes' ><img class="card-image" src={notetaker} alt="the Notetaker app"/></a>
                     <div class="card-body">
                         <h3><b>Note Taker</b></h3>
                         <p>The Notetaker app was our challenge we used to show our skills with Express.js. It's an application that allows users to create, edit and delete
@@ -61,7 +61,7 @@ export default function Portfolio() {
                     </div>
                 </div>
                 <div id="projectNineteen" class="card">
-                    <img class="card-image" src={budgettracker} alt="the budget tracker app" onclick="location.href = 'https://evening-caverns-05596.herokuapp.com';"/>
+                    <a  href = 'https://evening-caverns-05596.herokuapp.com' target="blank" rel="noreferror"><img class="card-image" src={budgettracker} alt="the budget tracker app"/></a>
                     <div class="card-body">
                         <h3><b>Budget Tracker</b></h3>
                         <p>My first Progressive Web Applications. I handled the backend logic, more specifically the offline capabilities. If a user loses 
@@ -72,7 +72,7 @@ export default function Portfolio() {
                     </div>
                 </div>
                 <div id="projectSix" class="card">
-                    <img class="card-image" src={weatherdashboard} alt="the weather dashboard app" onclick="location.href = 'https://mmlawton15.github.io/weather-dashboard/';"/>
+                    <a href = 'https://mmlawton15.github.io/weather-dashboard/' target="blank" rel="noreferror"><img class="card-image" src={weatherdashboard} alt="the weather dashboard app" /></a>
                     <div class="card-body">
                         <h3><b>Weather Dashboard</b></h3>
                         <p>The Weather Dashboard was our introduction to Server-Side APIs. I built a weather app, where the user can search for a city and
