@@ -76,55 +76,7 @@ h6 {
 }
 
 
-/*---------------------------------HEADER CODE---------------------------------------------------------------------------------------*/
 
-header {
-  padding: 0 2rem 0 0;
-  margin: 0px;
-  background: white;
-  display:flex;
-  flex-wrap:wrap;
-  position: sticky;
-  top:0;
-}
-
-header a {
-  color:#040F0F;
-  font-weight: bold;
-  transition: ease-in-out 200ms;
-}
-
-header nav{
-  margin: auto 2rem auto auto;
-}
-
-header ul{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  margin:0;
-}
-
-header li a{
-  display: inline-block;
-  padding: 1rem 2rem;
-  cursor: pointer;
-  text-decoration:none;
-}
-
-header ul li a:hover{
-  color:#78cdd7;
-}
-
-header ul li {
-  text-align:left;
-}
-
-.logo {
-  margin:1rem 4rem;
-}
 
 /*-----------------------------------------------HOME---------------------------------------------------------------------------*/
 
@@ -246,13 +198,71 @@ header ul li {
   filter: invert(59%) sepia(23%) saturate(855%) hue-rotate(130deg) brightness(89%) contrast(92%) drop-shadow(6px 6px 6px var(--medium-blue));
 }
 
+/*---------------------------------HEADER CODE---------------------------------------------------------------------------------------*/
 
-/*------------------------------------------------WAVES FOOTER--------------------------------------------------------------------*/
+header {
+  padding: 0 2rem 0 0;
+  margin: 0px;
+  display:flex;
+  flex-wrap:wrap;
+  position: sticky;
+  top:0;
+}
+
+header a {
+  color:#040F0F;
+  font-weight: bold;
+  transition: ease-in-out 200ms;
+}
+
+header nav{
+  margin: auto 2rem auto auto;
+}
+
+header ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin:0;
+}
+
+header li a{
+  display: inline-block;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-decoration:none;
+}
+
+header ul li a:hover{
+  color:#78cdd7;
+}
+
+header ul li {
+  text-align:left;
+}
+
+.logo {
+  margin:1rem 4rem;
+}
+
+
+/*------------------------------------------------WAVES FOOTER AND HEADER--------------------------------------------------------------------*/
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 footer {
-  position:fixed;
+  position:relative;
   bottom:0;
+  width:100%;
+  padding:0;
+  display:flex;
+  margin-left:0px;
+}
+
+.header-waves-container {
+  position:fixed;
+  top:0;
   width:100%;
   padding:0;
   display:flex;
@@ -282,6 +292,12 @@ footer {
   position: relative;
 }
 
+.slogan-top {
+  -webkit-transform:rotate(180deg);
+  width:100%;
+  position: relative;
+}
+
 .content {
   text-align:center;
   color:white;
@@ -291,6 +307,20 @@ footer {
   position:absolute;
   top:50%;
   bottom:auto;
+  left:0%;
+  right:50%;
+  font-size:20px;
+}
+
+.content-top {
+  text-align:center;
+  color:white;
+  width:100%;
+  font-weight:lighter;
+  z-index: 2;
+  position:absolute;
+  bottom:40%;
+  top:auto;
   left:0%;
   right:50%;
   font-size:20px;
