@@ -181,6 +181,8 @@ header ul li {
   flex-basis:30rem;
   height:auto;
   width:auto;
+  width: 25%;
+  text-align: center;
 }
 
 .card:hover {
@@ -240,8 +242,16 @@ header ul li {
 }
 
 .icon-container a:hover{
-  -webkit-filter:drop-shadow(6px 6px 6px #0d5c63);
+  filter: invert(59%) sepia(23%) saturate(855%) hue-rotate(130deg) brightness(89%) contrast(92%) drop-shadow(6px 6px 6px var(--medium-blue));
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -354,10 +364,7 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
+
 
 .img-thumbnail {
   width: auto;
@@ -385,7 +392,6 @@ a {
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
-	
 }
 
 .navActive {
