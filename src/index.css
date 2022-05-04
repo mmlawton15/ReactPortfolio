@@ -246,22 +246,17 @@ header ul li {
 }
 
 
-/*------------------------------------------------WAVES--------------------------------------------------------------------*/
+/*------------------------------------------------WAVES FOOTER--------------------------------------------------------------------*/
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
-.header {
-  position:relative;
-  text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
-  color:white;
-}
-
-
-.inner-header {
-  height:65vh;
+footer {
+  position:fixed;
+  bottom:0;
   width:100%;
-  margin: 0;
-  padding: 0;
+  padding:0;
+  margin:auto;
+  display:flex;
+
 }
 
 .flex { /*Flexbox for containers*/
@@ -269,6 +264,7 @@ header ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  width:100%;
 }
 
 .waves {
@@ -282,9 +278,9 @@ header ul li {
 
 .content {
   position:relative;
-  height:20vh;
   text-align:center;
   background-color: white;
+  width:100%;
 }
 
 /* Animation */
@@ -334,6 +330,12 @@ header ul li {
 
 
 
+
+
+
+
+
+/*---------------LEGACY-----------------------------------------------------------------------------------------------*/
 
 
 img {
