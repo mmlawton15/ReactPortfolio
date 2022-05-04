@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.1d9edd1d.css",
-    "main.js": "/ReactPortfolio/static/js/main.aaab0c1d.js",
+    "main.css": "/ReactPortfolio/static/css/main.106a33ed.css",
+    "main.js": "/ReactPortfolio/static/js/main.5963ef11.js",
     "static/js/787.e81290bd.chunk.js": "/ReactPortfolio/static/js/787.e81290bd.chunk.js",
     "static/media/sheet-show.png": "/ReactPortfolio/static/media/sheet-show.5ecc444e33711b1b71f4.png",
     "static/media/calendariHomeGif.gif": "/ReactPortfolio/static/media/calendariHomeGif.da0001815ec69561c021.gif",
-    "static/media/regex.png": "/ReactPortfolio/static/media/regex.640380e89f733dffa55b.png",
-    "static/media/horiseon.jpg": "/ReactPortfolio/static/media/horiseon.876c685c977b911f4fb3.jpg",
-    "static/media/readmeGenerator.png": "/ReactPortfolio/static/media/readmeGenerator.e419c7ef6e642c1102e0.png",
-    "static/media/socialnetwork.png": "/ReactPortfolio/static/media/socialnetwork.f21d2f1032eaa70dd666.png",
+    "static/media/PinkPrismProf.jpg": "/ReactPortfolio/static/media/PinkPrismProf.8fecaf941eedfa2a1794.jpg",
     "static/media/weatherdashboard.png": "/ReactPortfolio/static/media/weatherdashboard.f247fcea872a69e668ec.png",
     "static/media/usc-pic.jpg": "/ReactPortfolio/static/media/usc-pic.a639cab37199af323713.jpg",
     "static/media/workdayscheduler.png": "/ReactPortfolio/static/media/workdayscheduler.38f8ac960a9dc40898f1.png",
     "static/media/budgetTrackerPWA.png": "/ReactPortfolio/static/media/budgetTrackerPWA.72c91362c2cf23c5c043.png",
-    "static/media/pwGenerator.png": "/ReactPortfolio/static/media/pwGenerator.d9cf1e3156b4b1be4d1a.png",
     "static/media/notetaker.png": "/ReactPortfolio/static/media/notetaker.1f5c2af2e6675723b3d6.png",
-    "static/media/codequiz.png": "/ReactPortfolio/static/media/codequiz.d965d8bf13b8e626b9e9.png",
-    "static/media/gasguru.png": "/ReactPortfolio/static/media/gasguru.8eb5f95c1d18a70e7a6e.png",
-    "static/media/ecommercemakeshift.png": "/ReactPortfolio/static/media/ecommercemakeshift.65cc4f303ee3034b3c66.png",
     "static/media/PersonalLogoPNG.png": "/ReactPortfolio/static/media/PersonalLogoPNG.a4b287cf702078a19eff.png",
     "index.html": "/ReactPortfolio/index.html",
-    "main.1d9edd1d.css.map": "/ReactPortfolio/static/css/main.1d9edd1d.css.map",
-    "main.aaab0c1d.js.map": "/ReactPortfolio/static/js/main.aaab0c1d.js.map",
+    "main.106a33ed.css.map": "/ReactPortfolio/static/css/main.106a33ed.css.map",
+    "main.5963ef11.js.map": "/ReactPortfolio/static/js/main.5963ef11.js.map",
     "787.e81290bd.chunk.js.map": "/ReactPortfolio/static/js/787.e81290bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d9edd1d.css",
-    "static/js/main.aaab0c1d.js"
+    "static/css/main.106a33ed.css",
+    "static/js/main.5963ef11.js"
   ]
 }
