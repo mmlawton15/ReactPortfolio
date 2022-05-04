@@ -1,7 +1,7 @@
 main {
 	margin: 0 auto;
-	max-width: 90%;
-  padding: 0px 30px;
+	max-width: 100%;
+  padding: 0px;
 }
 
 :root {
@@ -255,9 +255,8 @@ footer {
   bottom:0;
   width:100%;
   padding:0;
-  margin:auto;
   display:flex;
-
+  margin-left:0px;
 }
 
 .flex { /*Flexbox for containers*/
@@ -272,16 +271,22 @@ footer {
   position:relative;
   width: 100%;
   height:15vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
+  margin-bottom:-8px; /*Fix for safari gap*/
   min-height:100px;
   max-height:150px;
+  z-index:0;
 }
 
-.content {
-  position:relative;
-  text-align:center;
-  background-color: white;
+.wavecontainer {
   width:100%;
+  z-index: 1;
+}
+.content {
+  text-align:center;
+  color:red;
+  width:100%;
+  font-weight:lighter;
+  z-index: 2;
 }
 
 /* Animation */
