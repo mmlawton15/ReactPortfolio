@@ -185,6 +185,13 @@ header ul li {
   left:0;
 }
 
+.card a {
+  width:100%;
+  align-items: left;
+  border-radius:15px 15px 0 0;
+  width:100%;
+  padding:2px;
+}
 .card:hover {
   -webkit-filter:drop-shadow(3px 3px 3px #0d5c63);
   filter: drop-shadow(3px 3px 3px #0d5c63);
@@ -194,6 +201,7 @@ header ul li {
   align-items: left;
   border-radius:15px 15px 0 0;
   width:100%;
+  padding:0px;
 }
 
 .card-body {
