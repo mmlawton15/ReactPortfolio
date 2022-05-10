@@ -5,8 +5,8 @@ export default function About() {
     return (
         <div className="About">
             <div className="MM-facts">
+            <img src={mmVenice} alt="mm in venice, italy"/>
                 <h1>Mary Margaret, MnM, MML...</h1>
-                <img src={mmVenice} alt="mm in venice, italy"/>
                 <p>
                     The list goes on. I will be impressed if you can come up with a new nickname! In my free time, I like to hangout with friends and family. 
                     The majority of my free time is occupied by those around me. 
